@@ -74,21 +74,20 @@ width: 90% ;
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
-    border-left: 10px solid blue;
 }
 
-.experience-item1{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
-    border-left: 10px solid red;
+#coloring-exp{
+    border-image: linear-gradient(tomato,tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
 }
+#coloring-2{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
 
 footer p{
     text-align: center;
 }
-
